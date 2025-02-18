@@ -36,7 +36,7 @@ jobs:
 
     - name: Publish
       working-directory: Blazor-Meets-GithubPages
-      run: dotnet publish Blazor-Meets-GithubPages.csproj -c release -o release
+      run: dotnet publish Blazor-Meets-GithubPages.csproj -c release -o ../release
 
     # Changes to make the Blazor app work with GitHub Pages
     # Changes the base-tag in index.html from '/' to 'Blazor-Meets-GithubPages' to match GitHub Pages repository subdirectory
