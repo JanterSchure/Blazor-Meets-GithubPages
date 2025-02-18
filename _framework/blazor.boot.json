@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "Blazor-Meets-GithubPages",
   "resources": {
-    "hash": "sha256-Q3UewWxfSfFDkw7X85t9Sx10nvtRlwQNuFoXBP7KZwg=",
+    "hash": "sha256-hUJJjz7OpOHqev3i0ozI8pFNqWlB8WVcfolG9Vh3nWI=",
     "fingerprinting": {
-      "Blazor-Meets-GithubPages.7wgd6psdpz.wasm": "Blazor-Meets-GithubPages.wasm",
+      "Blazor-Meets-GithubPages.wijac5cixz.wasm": "Blazor-Meets-GithubPages.wasm",
       "Microsoft.AspNetCore.Components.lc0o7zfhge.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.bjmiqed71u.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.0ler9vd42a.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -64,7 +64,7 @@
       "System.Runtime.InteropServices.JavaScript.f4ln4hfftw.wasm": "sha256-r+LQmgoVdHgFKWJvUNAR7HQZAtSw+xvBIQ6siSPsBNM="
     },
     "assembly": {
-      "Blazor-Meets-GithubPages.7wgd6psdpz.wasm": "sha256-OZ/eAFVH0MfclMBJhpGqE84qEipl0SkW4frv7XB7YUI=",
+      "Blazor-Meets-GithubPages.wijac5cixz.wasm": "sha256-WIFyjELQmo8rvlVKR7nNs4mJPVRNKKWUTROwc8fNrqQ=",
       "Microsoft.AspNetCore.Components.lc0o7zfhge.wasm": "sha256-xRoFX4E/yicnPGnVCCnP1qyP1cjJoZmOaJvdEIuRVdw=",
       "Microsoft.AspNetCore.Components.Web.bjmiqed71u.wasm": "sha256-adsyN07FyL/vhO05AtPDGcg9y29ox9E1Zr/qezgt9HM=",
       "Microsoft.AspNetCore.Components.WebAssembly.0ler9vd42a.wasm": "sha256-lNeqJIV883lh0UuxhQkzSEQf9OqQJAtWL21CZbuKa9E=",
