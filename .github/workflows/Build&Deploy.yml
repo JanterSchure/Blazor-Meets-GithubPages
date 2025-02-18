@@ -28,7 +28,7 @@ jobs:
 
     - name: Build
       working-directory: Blazor-Meets-GithubPages
-      run: dotnet build Blazor-Meets-GithubPagesBlazor-Meets-GithubPages.csproj --no-restore
+      run: dotnet build Blazor-Meets-GithubPages.csproj --no-restore
 
     - name: Test
       working-directory: Blazor-Meets-GithubPages
