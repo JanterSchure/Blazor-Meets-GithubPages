@@ -15,10 +15,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: Blazor-Meets-GithubPages
-
     steps:
     # Regular GitHub Actions setup for a .NET project
     - uses: actions/checkout@v4
@@ -27,15 +23,19 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Restore dependencies
+      working-directory: Blazor-Meets-GithubPages
       run: dotnet restore Blazor-Meets-GithubPages.csproj
 
     - name: Build
+      working-directory: Blazor-Meets-GithubPages
       run: dotnet build Blazor-Meets-GithubPages.csproj --no-restore
 
     - name: Test
+      working-directory: Blazor-Meets-GithubPages
       run: dotnet test Blazor-Meets-GithubPages.csproj --no-build --verbosity normal
 
     - name: Publish
+      working-directory: Blazor-Meets-GithubPages
       run: dotnet publish Blazor-Meets-GithubPages.csproj -c release -o ../release
 
     # Changes to make the Blazor app work with GitHub Pages
