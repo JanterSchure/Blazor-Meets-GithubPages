@@ -42,11 +42,11 @@ jobs:
     # Changes the base-tag in index.html from '/' to 'Blazor-Meets-GithubPages' to match GitHub Pages repository subdirectory
     # This is required because it needs to point to the correct path when the app is hosted on GitHub Pages
     - name: Change base-tag in index.html from / to Blazor-Meets-GithubPages
-      run: sed -i 's/<base href="\/"\/>/<base href="\/Blazor-Meets-GithubPages\/" \/>/g' release/wwwroot/index.html
+      run: sed -i 's/<base href="\/"\/>/<base href="\/Blazor-Meets-GithubPages\/" \/>/g' ../release/wwwroot/index.html
     
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
     - name: Add .nojekyll file
-      run: touch release/wwwroot/.nojekyll
+      run: touch ../release/wwwroot/.nojekyll
     
     # Deploy the Blazor app to GitHub Pages
     - name: Deploy to GitHub Pages
@@ -54,6 +54,6 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: release/wwwroot
+        FOLDER: ../release/wwwroot
         CLEAN: true
 
